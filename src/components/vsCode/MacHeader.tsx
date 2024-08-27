@@ -5,7 +5,7 @@ const MacHeader: React.FC = () => {
 
 
   return (
-    <div className="flex items-center bg-[#181818] h-12 border-b border-[#2D2D2D] rounded-tr-md rounded-tl-md">
+    <div className="flex items-center bg-[#181818] h-14 border-b border-[#2D2D2D] rounded-tr-md rounded-tl-md">
       <div className="flex items-center justify-between h-full w-[18.5rem] mx-2">
         <div>
         <button
@@ -38,7 +38,7 @@ const MacHeader: React.FC = () => {
         </p>
         </div>
       </div>
-      <div className='flex justify-between items-center text-white gap-3 mx-4'>
+      <div className='flex justify-between items-center text-white gap-3 mx-4 py-4'>
         <Columns2/>
         <Table2/>
         <Grid2X2/>
